@@ -16,9 +16,9 @@ description: "「种一棵树最好的时间是十年前，其次是现在」"
         {% endif %}
         <div class="post-content-preview">
             {% if post.lang == 'en' %}
-                {{ post.content | strip_html | truncate:300 }}
+            {{ post.content | strip_html | truncate:300 }}
             {% else %}
-                {{ post.content | strip_html | truncate:200 }}
+            {{ post.content | strip_html | truncate:200 }}
             {% endif %}
         </div>
     </a>
@@ -44,3 +44,7 @@ description: "「种一棵树最好的时间是十年前，其次是现在」"
     {% endif %}
 </ul>
 {% endif %}
+
+<script>
+    console.log(1111111111111)
+</script>
